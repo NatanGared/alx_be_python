@@ -1,7 +1,7 @@
 monthly_income = int(input("Enter your monthly income: "))
 monthly_expense = int(input("Enter your monthly expense: "))
 
-monthly_savings = monthly_income - monthly_expense
+monthly_savings = float(monthly_income) - float(monthly_expense)
 
 rate = 0.05
 Projected_Savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
