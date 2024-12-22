@@ -1,10 +1,10 @@
-guess = input("What's the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-if guess.lower() == "sunny":
+if weather.lower() == "sunny":
     print("Wear a t-shirt and sunglasses.")
-elif guess.lower() == "rainy":
+elif weather.lower() == "rainy":
     print("Don't forget your umbrella and a raincoat.")
-elif guess.lower() == "cold":
+elif weather.lower() == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
