@@ -1,8 +1,8 @@
-task = input("Enter your task: ")
-priority = input("(high/medium/low): ")
-time_bound = input("Is it time bound? (yes/no): ")
+Task = input("Enter your task: ")
+Priority = input("(high/medium/low): ")
+Time_Bound = input("Is it time bound? (yes/no): ")
 
-match priority:
+match Priority:
     case "high":
         result = "high priority"
     case "medium":
@@ -11,9 +11,9 @@ match priority:
         result = "low priority"
     case _:
         print("Input a proper priority level")
-if time_bound == "yes":
+if Time_Bound == "yes":
     print(f"'{task}' ia a {result} task that requires immediate attention today!")
-elif time_bound == "no":
+elif Time_Bound == "no":
     print(f"'{task}' ia a {result} task. consider completing it when you have free time")
 else:
     print("Kindly insert a proper answer")
