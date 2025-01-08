@@ -14,7 +14,7 @@ def main():
 
         if choice == '1':
             B = []
-            a = input("what is/are the name of the item/s? ")
+            a = input("Enter the item to add: ")
             B.append(a)
             pass
         elif choice == '2':
