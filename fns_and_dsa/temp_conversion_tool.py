@@ -2,12 +2,10 @@ FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
-    X = (fahrenheit + 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
-    return X
+    return (fahrenheit + 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
-    X = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
-    return X
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 A = int(input("Enter the temperature to convert: "))
 B = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
