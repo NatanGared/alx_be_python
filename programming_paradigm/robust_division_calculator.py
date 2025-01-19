@@ -1,5 +1,3 @@
-def __init__(self):
-    pass
 def safe_divide(self, numerator, denominator):
     self.numerator = float(numerator)
     self.denominator = float(denominator)
