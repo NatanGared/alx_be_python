@@ -1,7 +1,7 @@
 import unittest
 import simple_calculator
 
-class Calculation(unittest.TestCase):
+class SimpleCalculator(unittest.TestCase):
     def __init__(self):
         pass
 
@@ -21,3 +21,5 @@ class Calculation(unittest.TestCase):
        result = simple_calculator.divide(10,2)
        self.assertEqual(result,5)
 
+if __name__ == "__main__":
+  unittest.main()
