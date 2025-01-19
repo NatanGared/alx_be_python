@@ -3,6 +3,8 @@ class BankAccount:
         self.account_balance = account_balance
         self.initial_balance = initial_balance
 
+        account_balance = initial_balance
+
     def deposit(self,amount):
         return amount + self.account_balance
 
