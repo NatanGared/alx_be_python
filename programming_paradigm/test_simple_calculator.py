@@ -1,7 +1,7 @@
 import unittest
 from simple_calculator import SimpleCalculator
 
-class Calculator(unittest.TestCase):
+class TestSimpleCalculator(unittest.TestCase):
     def __init__(self):
         pass
 
