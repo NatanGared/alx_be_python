@@ -1,8 +1,8 @@
 def safe_divide(numerator, denominator):
 
     try:
-        if denominator == float(0):
-            return ZeroDivisionError("Error: Cannot divide by zero.")
+        if ZeroDivisionError:
+            return "Error: Cannot divide by zero."
         else:
             return f"The result of the division is {float(numerator) / float(denominator)}"
     except Exception as a:
