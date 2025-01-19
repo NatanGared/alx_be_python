@@ -3,7 +3,7 @@ def safe_divide(numerator, denominator):
     denominator = float(denominator)
 
     try:
-        if (numerator, denominator) == int():
+        if (numerator, denominator) != int(numerator,denominator):
             return ValueError("Error: Please enter numeric values only.")
         elif denominator == 0:
             return ZeroDivisionError("Error: Cannot divide by zero.")
