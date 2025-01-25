@@ -1,3 +1,4 @@
+#bank_account.py
 import sys
 from bank_account import BankAccount
 
@@ -27,6 +28,7 @@ def main():
 if __name__ == "__main__":
     main()
 
+#Simple_calculator.py
 import sys
 from robust_division_calculator import safe_divide
 
@@ -46,6 +48,7 @@ if __name__ == "__main__":
 
 from library_management import Book, Library
 
+#Library_management.py
 def main():
     # Setup a small library
     library = Library()
