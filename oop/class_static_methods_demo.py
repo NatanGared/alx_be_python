@@ -1,13 +1,11 @@
 class Calculator:
-    def __init__(self, calculation_type):
-        pass
+    calculation_type = "Arithemetic Operations"
 
     @staticmethod
     def add(a, b):
         return a + b
-    
-    calculation_type = "Arithemetic Operations"
 
     @classmethod
     def multiply(cls, a, b):
+        print(f"Calculation type: {cls.calculation_type}")
         return a * b
